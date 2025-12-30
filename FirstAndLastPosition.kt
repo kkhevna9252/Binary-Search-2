@@ -1,3 +1,7 @@
+//Time Complexity: O(log n)
+//Space Complexity: O(1)
+// In this problem, we run binary search twice to find the first and last position. First pass finds the start position and second pass finds the end position.
+
 class Solution {
     fun searchRange(nums: IntArray, target: Int): IntArray {
         val start = searchRangeHelper(nums, target)
